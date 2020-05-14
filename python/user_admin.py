@@ -6,7 +6,6 @@ def readPassword():
     f = open('/home/ec2-user/sql-passwd','r')
     line = f.readline()
     f.close()
-    print("/"+line[:-1]+"/")
     return line[:-1]
 
 def connect():
